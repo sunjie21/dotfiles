@@ -26,6 +26,8 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'fatih/vim-go'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'
 " Git plugin not hosted on GitHub
@@ -183,7 +185,10 @@ let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
 let g:go_highlight_structs = 1
 
+" let g:solarized_termcolors=256
+
 " theme solarized
 set t_Co=256
-set background=dark
-colorscheme solarized
+" set background=dark
+" colorscheme solarized
+colorscheme Tomorrow-Night-Eighties

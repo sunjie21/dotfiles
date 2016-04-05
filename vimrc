@@ -191,4 +191,5 @@ let g:go_highlight_structs = 1
 set t_Co=256
 " set background=dark
 " colorscheme solarized
+" colorscheme zenburn
 colorscheme Tomorrow-Night-Eighties

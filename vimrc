@@ -146,6 +146,7 @@ set ignorecase
 
 
 set nu
+set rnu " relativenumber
 set nobackup
 syntax on
 set autoindent

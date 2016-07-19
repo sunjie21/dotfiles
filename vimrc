@@ -140,6 +140,8 @@ set incsearch
 
 " Highlight current line
 set cursorline
+"" Hightlight CursorLine for theme solarized
+hi CursorLine term=bold cterm=bold ctermbg=23
 " Ignore case of searches
 set ignorecase
 
